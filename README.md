@@ -4,7 +4,7 @@ This app is made specifically to calculate the marks of the NIELIT Scientist B, 
 
 # How to Run the code.
 1) Take the pull of the repo.
-2) Install Necessary Libraries
+2) pip install PyMuPDF (remember: dont install fitz library).
 3) Put your pdf file location on pdf_file_path on line 77
 4) Run it.
 
