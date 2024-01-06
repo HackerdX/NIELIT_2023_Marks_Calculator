@@ -1,6 +1,6 @@
 # NIELIT_2023_Marks_Calculator
 
-This app is made specifically to calculate the marks of the NIELIT Scientist B, Scientific Officer/Engineer and Scientific and Technical Assistant A.
+This app is made specifically to calculate the marks of the NIELIT Scientist B, Scientific Officer/Engineer and Scientific and Technical Assistant A that happened on 12th, 13th and 14th respectively.
 
 # How to Run the code.
 1) Take the pull of the repo.
