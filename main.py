@@ -57,8 +57,8 @@ def parse_pdf(file_path):
 
         # Search for "Correct Answer" within the remaining text
         correct_answer_match = re.search(
-            r'Correct Answer\s*:-\s*Option ID\s*:-\s*(\d+)',
-            full_text[match.end():], re.DOTALL
+            r'Correct Answer\s*:-\s*Option\s*ID\s*:-\s*(\d+)',
+            full_text[match.end():], re.MULTILINE | re.DOTALL
         )
 
         if correct_answer_match:
@@ -74,5 +74,5 @@ def parse_pdf(file_path):
 
 
 if __name__ == "__main__":
-    pdf_file_path = r"<YOUR NIELIT ANSWER KEY PDF LOCATION HERE>"
+    pdf_file_path = r"/Users/hackerx/Desktop/Upcoming Exams 2023-2024/NIELIT_ASNWER_KEY/Response_Sheet_SB_Engineer.pdf"
     parse_pdf(pdf_file_path)
